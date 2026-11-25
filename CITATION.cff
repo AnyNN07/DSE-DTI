@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: Please cite the DSE-DTI manuscript when using this method. Publication identifiers will be added when available.
+type: software
+title: DSE-DTI
+authors:
+  - family-names: Niu
+    given-names: Wentao
+  - family-names: Qian
+    given-names: Zhuang
+  - family-names: Zhang
+    given-names: Zihang
+  - family-names: Lei
+    given-names: Zhenyu
+  - family-names: Gao
+    given-names: Shangce
+abstract: Source implementation of the direction-scale model described in Decoupling decision direction and evidence scale for drug-target interaction prediction.
