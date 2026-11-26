@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: Please cite the DSE-DTI manuscript when using this method. Publication identifiers will be added when available.
+type: software
+title: DSE-DTI
+license: MIT
+repository-code: https://github.com/AnyNN07/DSE-DTI
+authors:
+  - family-names: Niu
+    given-names: Wentao
+    affiliation: Faculty of Engineering, University of Toyama
+  - family-names: Qian
+    given-names: Zhuang
+    affiliation: Institute of Natural Medicine, University of Toyama
+  - family-names: Zhang
+    given-names: Zihang
+    affiliation: Faculty of Engineering, University of Toyama
+  - family-names: Lei
+    given-names: Zhenyu
+    affiliation: Faculty of Engineering, University of Toyama
+  - family-names: Luo
+    given-names: Xin
+    affiliation: College of Computer and Information Science, School of Software, Southwest University
+  - family-names: Qiao
+    given-names: Yan
+    affiliation: Institute of Systems Engineering and Collaborative Laboratory for Intelligent Science and Systems, Macau University of Science and Technology
+  - family-names: Wang
+    given-names: Xugang
+    affiliation: Jiangsu Key Laboratory of AI for Industries, Institute of AI for Industries, Chinese Academy of Sciences
+  - family-names: Zhao
+    given-names: Weizun
+    affiliation: Jiangsu Key Laboratory of AI for Industries, Institute of AI for Industries, Chinese Academy of Sciences
+  - family-names: Guo
+    given-names: Lijun
+    affiliation: Faculty of Electrical Engineering and Computer Science, Ningbo University
+  - family-names: Wang
+    given-names: Yirui
+    affiliation: Faculty of Electrical Engineering and Computer Science, Ningbo University
+  - family-names: Xu
+    given-names: Zhe
+    affiliation: School of Computer Information & Engineering, Changzhou Institute of Technology
+  - family-names: Gao
+    given-names: Shangce
+    affiliation: Faculty of Engineering, University of Toyama
+abstract: Source implementation of the direction-scale model described in Decoupling decision direction and evidence scale for drug–target interaction prediction.

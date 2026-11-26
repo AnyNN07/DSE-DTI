@@ -1,0 +1,50 @@
+{
+  "protocol": {
+    "datasets": [
+      "Patent",
+      "celegans",
+      "human",
+      "Article"
+    ],
+    "splits": [
+      "cluster",
+      "cold_smiles",
+      "cold_protein",
+      "cold_both",
+      "random"
+    ],
+    "seeds": [
+      42,
+      1234,
+      2025,
+      12345,
+      666
+    ],
+    "batch_size": 16,
+    "accum_steps": 8,
+    "gnn_hidden": 128,
+    "k": 5,
+    "lr": 5e-05,
+    "weight_decay": 1e-05,
+    "max_epochs": 30,
+    "warmup_epochs": 5,
+    "grad_clip": 5.0,
+    "plateau_factor": 0.5,
+    "plateau_patience": 10,
+    "plateau_min_lr": 1e-06,
+    "fusion_mode": "VLM-XA",
+    "vlm_ablation": "no_attn",
+    "cl_weight": 0.0001,
+    "decision_threshold": 0.5
+  },
+  "head": {
+    "lam": 0.1,
+    "m_min": 0.01,
+    "m_max": 1000.0,
+    "knn": 8,
+    "bank_size": 4096,
+    "head_hidden": 64,
+    "dropout": 0.1,
+    "gate_refit_batches": 200
+  }
+}
